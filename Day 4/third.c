@@ -12,9 +12,9 @@ int main()
 
     while(temp > 0)
     {
-        digit = temp % 10;          // Extract last digit
-        sum = sum + (digit * digit * digit); // Cube of digit
-        temp = temp / 10;           // Remove last digit
+        digit = temp % 10;          
+        sum = sum + (digit * digit * digit)
+        temp = temp / 10;         
     }
 
     if(sum == num)
